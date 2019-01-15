@@ -57,7 +57,7 @@ module jar2(){
 	// TOP LIPS
 	difference(){
 		translate([0,0,-11]) cylinder(11,external_width,external_width,false);
-		translate([0,0,-11.1]) cylinder(11.5,external_width,33,false);
+		translate([0,0,-11.1]) cylinder(11.5,external_width-1,33,false);
 	}
 	// TOP
 	difference(){
