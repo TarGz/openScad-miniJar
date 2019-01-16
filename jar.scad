@@ -134,7 +134,7 @@ module jar2(){
 
 
 module pot(){
-	  rotate([180,0,0])difference(){
+	  difference(){
 	 	translate([0,0,0]) cylinder(60,30,30,false);
 	 	union(){
 	 		translate([0,0,2]) cylinder(55,28,28,false);
@@ -149,7 +149,7 @@ module pot(){
 
 	// color([0.2,0.2,0.2]) jar2();
 	color([1,1,0]) pot();
-	// translate([0,0,65.8]) color([1,1,0]) pot();
+	// translate([0,0,65.8]) rotate([180,0,0]) color([1,1,0]) pot();
 
 
 *difference(){
