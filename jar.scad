@@ -147,9 +147,9 @@ module pot(){
 }
 
 
-	// color([0.2,0.2,0.2]) jar2();
-	color([1,1,0]) pot();
-	// translate([0,0,65.8]) rotate([180,0,0]) color([1,1,0]) pot();
+	color([0.2,0.2,0.2]) jar2();
+	// color([1,1,0]) pot();
+	translate([0,0,65.8]) rotate([180,0,0]) color([1,1,0]) pot();
 
 
 *difference(){
